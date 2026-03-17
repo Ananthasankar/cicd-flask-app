@@ -12,6 +12,12 @@
         <li>{{ project['name'] }} ({{ project['year'] }})</li>
     {% endfor %}
     </ul>
+   <h1>Projects</h1>
+    <ul>
+    {% for project in projects %}
+        <li>{{ project['name'] }} ({{ project['year'] }})</li>
+    {% endfor %}
+    </ul>
 
     <a href="/about">About</a>
 </body>
